@@ -9,5 +9,9 @@ class Author
     post_object.author == self
     end
   end
+  
+  def add_post(post)
+    
+  end
 
 end
