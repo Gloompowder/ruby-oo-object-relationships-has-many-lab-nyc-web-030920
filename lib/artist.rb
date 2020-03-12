@@ -11,6 +11,6 @@ attr_accessor :name, :song
     end
   end
   def add_song(song)
-    song=Artist.song
+    
   end
 end
