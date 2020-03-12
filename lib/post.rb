@@ -1,5 +1,5 @@
 class Post 
-  attr_reader :title
+  attr_reader :title, :author
   @@all = []
   def initialize(title, author=nil)
     @title = title
@@ -10,11 +10,7 @@ class Post
     @@all
   end
   def author 
-    @author
+    
   end
-  def author_name
-    if @author
-    @author.name
-    end
-  end
+
 end
