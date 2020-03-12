@@ -17,11 +17,11 @@ attr_accessor :name, :song
     song = Song.new(song_name, self)
   end
   def self.song_count 
-    total_discography = 0 
-    Artist.song.each do |discography|
-      total_discography += discography.count
-    end 
-    return total_discography
+    # total_discography = 0 
+    # Artist.song.each do |discography|
+    #   total_discography += discography.count
+    # end 
+    # return total_discography
     # if post.artist != nil 
     Song.all.count 
     # end
