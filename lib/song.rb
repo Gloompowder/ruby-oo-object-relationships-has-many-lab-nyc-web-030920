@@ -16,4 +16,5 @@ class Song
     if @artist
     @artist.name
   end
+  end
 end
