@@ -9,9 +9,6 @@ class Post
   def self.all
     @@all
   end
-  def author 
-    @author
-  end
   def author_name
     if @author
     @author.name
