@@ -4,9 +4,9 @@ attr_accessor :name
   def initialize(name)
     @name=name 
   end
-  def songs 
-    Song.all.select do |song_object|
-      song_object.author == self
+  def songs
+    Songs.all.select do |artist_object|
+      artist_object == self.name 
     end
   end
 end
