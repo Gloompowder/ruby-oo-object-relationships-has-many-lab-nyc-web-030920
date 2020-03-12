@@ -17,8 +17,9 @@ attr_accessor :name, :song
     song = Song.new(song_name, self)
   end
   def self.song_count 
-    if post.artist != nil 
+    
+    # if post.artist != nil 
     Song.all.count 
-    end
+    # end
   end
 end
