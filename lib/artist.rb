@@ -5,8 +5,8 @@ attr_accessor :name
     @name=name 
   end
   def songs
-    Songs.all.select do |artist_object|
-      artist_object.artist == self
+    Songs.all.select do |song_object|
+      song_object.artist == self
     end
   end
 end
